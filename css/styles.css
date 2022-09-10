@@ -1,0 +1,85 @@
+/* колір основного тексту color: #757575; */
+/* колір вторинний тексту color: #212121; */
+/* первинний колір фону #FFFFFF; */
+/* колір контактів футера rgba(255, 255, 255, 0.6); */
+/* вторинний колір фону #F5F4FA; */
+/* колір логотипу #2196F3; #000000 */
+/* колір фону футера #2F303A; */
+/* акцент #2196F3; */
+
+
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --footer-contacts-color: rgba(255, 255, 255, 0.6);
+    --footer-hero-background-color: #2F303A;
+    --primary-backgraund-color: #FFFFFF;
+    --hero-text-color: #FFFFFF;
+}
+
+body {
+    font-family: 'Roboto', 'Arial', 'Helvetica', 'sans-serif';
+    color: var(--primary-text-color);
+    background-color: var(--primary-backgraund-color);
+}
+
+
+
+/* видалення маркування списків */
+.site-nav,
+.contacts-footer, 
+.contacts-header, 
+.examples, .solutions, 
+.team-photo, .filter-button, 
+.projects 
+{
+    list-style-type: none;
+}
+
+
+/* nav, header */
+.site-nav {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
+.contacts-header a {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.link, .logo {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+
+.link:hover, .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current{
+color: #2196F3;    
+}
+
+.logo { 
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 31px;    
+    letter-spacing: 0.03em;
+    color: #000000;
+}
+
+.logo span {
+    color: var(--accent-color);
+}
+
+.logo:hover,
+.logo:focus {
+    color: var(--accent-color);
+}
