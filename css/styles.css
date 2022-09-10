@@ -100,6 +100,20 @@ color: #2196F3;
     cursor: pointer;
 }
 
+.hero button {
+font-weight: 700;
+font-size: 16px;
+line-height: 30px;
+letter-spacing: 0.06em;
+}
+
+.hero button:hover,
+.hero button:focus 
+{
+    color: var(--hero-text-color);
+    background-color: var(--accent-color);
+}
+
 /* main секція Рішення для бізнесу */
 .business-title, .title {
     color: var(--title-text-color);
