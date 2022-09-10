@@ -123,3 +123,80 @@ color: #2196F3;
     letter-spacing: 0.03em;
 }
 
+/* main секція Фото робіт */
+.team h2, .profile h2 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* main Команда співробітників */
+
+.team-photo {
+    line-height: 1.18;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.team-photo h3 {
+    font-weight: 500;
+}
+
+
+/* footer */
+.background {
+    background-color: var(--footer-hero-background-color);
+}
+
+.footer {
+    color: var(--footer-contacts-color);
+}
+.footer-addres {
+    color: var(--primary-backgraund-color);
+}
+
+.contacts-footer {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+footer .logo {
+    color: #ffffff;
+}
+
+
+/* main секція portfolio-filter */
+.filter-button button,
+.filter-button button 
+{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;   
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-text-color);
+
+}
+
+.filter-button button:hover,
+.filter-button button:focus 
+{
+    color: var(--hero-text-color);
+    background-color: var(--accent-color);
+}
+
+.projects h3 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;   
+    letter-spacing: 0.06em;   
+}
+
+.projects p {
+    line-height: 1.87;
+    letter-spacing: 0.03em;
+}
