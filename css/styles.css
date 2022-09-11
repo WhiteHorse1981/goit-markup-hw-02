@@ -143,11 +143,9 @@ letter-spacing: 0.06em;
 }
 
 /* main Команда співробітників */
-
-.team-photo {
+.team-photo h3, .team-photo p {
     font-size: 16px;
     line-height: 1.18;
-    text-align: center;
     letter-spacing: 0.03em;
 }
 
